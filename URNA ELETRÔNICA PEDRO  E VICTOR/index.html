@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URNA ELETRÔNICA</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="candidato">
+            <h6>VOCÊ VOTOU PARA:</h6>
+            <input type="text" name="txtVoto" id="tVoto" size="5" maxlength="2" readonly>
+            <br>
+            <div class="name">
+                <span id="nameCand">CANDIDATO:</span>
+                <br>
+                <span id="namePartido">PARTIDO:</span>
+            </div>
+            <div class="end">
+                <h1>FIM</h1>
+                <img src="" alt="" id="imgCand">
+            </div>
+        </div>
+
+        <div class="teclado">
+            <div class="number">
+                <div class="line1">
+                    <button id="B1" onclick="buttonB1();">1</button>
+                    <button id="B2" onclick="buttonB2();">2</button>
+                    <button id="B3" onclick="buttonB3();">3</button>
+                </div>
+                <div class="line2">
+                    <button id="B4" onclick="buttonB4();">4</button>
+                    <button id="B5" onclick="buttonB5();">5</button>
+                    <button id="B6" onclick="buttonB6();">6</button>
+                </div>
+                <div class="line3">
+                    <button id="B7" onclick="buttonB7();">7</button>
+                    <button id="B8" onclick="buttonB8();">8</button>
+                    <button id="B9" onclick="buttonB9();">9</button>
+                </div>
+                <div class="line4">
+                    <button id="B0" onclick="buttonB0();">0</button>
+                </div>
+                <br><br><br><br><br><br><br>
+
+                <div class="action">
+                    <button id="btnWhite" onclick="btnWhite();">BRANCO</button>
+                    <button id="btnCorrect" onclick="btnCorrect();">CORRIGE</button>
+                    <button id="btnConfirm" onclick="btnConfirm();">CONFIRMA</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="generica">
+        <div class="zerezima">
+            <div id="cand">
+                <h2>Candidato nº 04: </h2>
+                <img src="Img/dinoAlexo.jpeg" ">
+            </div>
+            <br>
+
+            <div id="cand">
+                <h2>Candidato nº 12: </h2>
+                
+                <img src="Img/grazi.jpeg">
+            </div>
+            <br>
+
+            <div id="cand">
+                <h2>Candidato nº 35: </h2>
+                <img src="Img/jubsmabsgabs.jpeg">
+            </div>
+            <br>
+
+            <div id="cand">
+                <h2>Candidato nº 41:</h2>
+                <img src="Img/jãozinho dos cria.jpeg" ">
+            </div>
+            <br>
+
+            <div id="cand">
+                <h2>Candidato nº 59:</h2>
+                <img src="Img/lusca.jpg">
+            </div>
+            <br>
+
+            <div id="cand">
+                <h2>Candidato nº 72: </h2>
+                <img src="Img/totonho_do_grau.jpeg">
+            </div>
+
+
+        </div>
+
+        <div class="FinalResult">
+            <div class="">
+                <h1>RESULTADO FINAL!</h1>
+
+                <div id="Pcdt">
+                    <img src="#" alt="" id="imgPcdt">
+                    <h3 id="resPcdt">CANDIDATO:</h3>
+                </div>
+
+                <div id="Scdt">
+                    <img src="#" alt="" id="imgScdt">
+                    <h3 id="resScdt">CANDIDATO:</h3>
+                </div>
+
+                <div id="Tcdt">
+                    <img src="#" alt="" id="imgTcdt">
+                    <h3 id="resTcdt">CANDIDATO:</h3>
+                </div>
+
+                <div id="QTcdt">
+                    <img src="#" alt="" id="imgQTcdt">
+                    <h3 id="resQTcdt">CANDIDATO:</h3>
+                </div>
+
+                <div id="QIcdt">
+                    <img src="#" alt="" id="imgQIcdt">
+                    <h3 id="resQIcdt"></h3>
+                </div>
+
+                <div id="rWhite">
+                    <img src="#" alt="" id="imgWhite">
+                    <h3 id="resWhite">CANDIDATO:</h3>
+                </div>
+
+                <div id="rNule">
+                    <img src="#" alt="" id="imgNule">
+                    <h3 id="resNule">CANDIDATO:</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

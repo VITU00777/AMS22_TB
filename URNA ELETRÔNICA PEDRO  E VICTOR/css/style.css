@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    display: grid; 
+}
+
+.generica{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    display: flex;
+    grid-gap: 100px;
+    
+}
+
+
+
+.container{
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    background-color: #dbd5c9;
+    margin: 10px;
+
+}
+
+.candidato{
+    border: black;
+    width: justify;
+    height: justify;
+    background-color: lightgray;
+}
+
+.candidato h6{
+    font-size: 20px;
+}
+
+.candidato input{
+    font-size: 30px;
+    border: 0px;
+    margin: 3px;
+}
+
+.end {
+    width: 50%;
+    height: 30%;
+    margin: 5px;
+    border: black;
+    color: red;
+    background-color: white;
+    justify-content: center;
+}
+
+.end h1{
+    font-size: 20px;
+    text-align: center;
+}
+.candidato .end h1 img{
+    width: 50%;
+    height: 50%;
+    margin: 5px;
+}
+
+.candidato .name{
+    margin: 4px;
+    border: 3px;
+}
+.teclado{
+    height: 480px;
+    margin-left: 30px;
+    align-items: baseline;
+    display: flex;
+    background-color: grey;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.number .line1{
+    margin: 3px;
+}
+
+.number .line1 button,
+.number .line2 button,
+.number .line3 button,
+.number .line4 button{
+    background-color: black;
+    color: white;
+    font: arial;
+    font-size: 30px;
+    text-decoration: solid;
+    box-shadow: 4px 4px 4px 8px #999;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.action{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+}
+
+.action button#btnWhite{
+    background-color: white;
+    margin: 2px;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.action button#btnCorrect{
+    background-color: orangered;
+    margin: 2px;
+    border: 0;
+    padding: 3px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.action button#btnConfirm{
+    background-color: green;
+    margin: 2px;
+    border: 0;
+    padding: 3px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.zerezima{
+    background-color: grey;
+    border-radius: 7px;
+    text-align: justify;
+    margin: 10px;
+    border: solid grey 15px;
+}
+
+#cand img{
+width: 110px;
+height: 140px;
+border-radius: 10px;
+
+}
+
+#cand{
+    display: flex;
+    align-items: center;  
+    background-color: silver;
+    font: 20px solid black;    
+}
+
+#imgCand{
+    width: 110px;
+    height: 140;
+}
